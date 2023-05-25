@@ -1,52 +1,131 @@
-<!DOCTYPE HTML>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<title>White Edition</title>
-<meta charset="utf-8">
-<link rel="stylesheet" type="text/css" href="css/style.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://kit.fontawesome.com/2255550c53.js" crossorigin="anonymous"></script>
+  <title>Portfolio</title>
 </head>
 <body>
-<header>
-  <nav class="main-nav">
-    <ul>
-      <li>
-        <ul>
-          <li><a href="index.html" class="active">about</a></li>
-          <li><a href="projets.html">works</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </li>
-    </ul>
-  </nav>
-</header>
-<section id="video" class="home">
-  <h1>WHITE EDITION</h1>
-  <h2>E.S.T 2013</h2>
-</section>
-<section id="main-content">
-  <div class="text-intro">
-    <h2>About</h2>
-  </div>
-  <div class="columns features">
-    <div class="one-third first">
-      <h3>Minimal</h3>
-      <p>Bacon ipsum dolor sit amet cow ham beef, ground round t-bone meatloaf fatback sirloin pork chop swine pig. Venison shoulder prosciutto turkey tri-tip kielbasa andouille ham hock beef ribs. Meatloaf meatball doner filet mignon shankle.</p>
-      <p><a href="#" class="more">En savoir plus</a></p>
+  <header>
+    <span id="header-caption">ishe</span>
+    <nav id="navbar">
+      <a href="#welcome-section">home</a>
+      <a href="#about-me">about me</a>
+      <a href="#projects">projects</a>
+      <a href="#contacts">contacts</a>
+    </nav>
+  </header>
+  <div id="welcome-section">
+    <div id="intro-section">
+        <div id="intro-content">
+            <p class="welcome-note">hello, i'm</p>
+            <h1>ishe kahonde</h1>
+            <p class="intro">freelance frontend developer.</p>
+            <button id="about-me-btn" class="accented-btn" type="submit">about me</button>
+            <button id="projects-btn" class="non-accented-btn" type="submit">projects</button>
+        </div>
     </div>
-    <div class="one-third">
-      <h3>HTML5/CSS3</h3>
-      <p>Chuck venison short ribs, pork loin strip steak turducken chicken boudin doner tail cow pork chop spare ribs.</p>
-      <p><a href="#" class="more">En savoir plus</a></p>
+    <div id="img-container">
+        <div id="bg-img"></div>
     </div>
-    <div class="one-third">
-      <h3>Totally Free</h3>
-      <p>Capicola prosciutto shankle frankfurter ham hock. Beef ribs t-bone rump, short ribs jerky turkey ham capicola pancetta filet mignon turducken boudin biltong venison shank.</p>
-      <p><a href="#" class="more">En savoir plus</a></p>
+</div>
+  <section id="about-me">
+    <span class="section-heading">about me:</span>
+    <p>hi, my name is ishe. i am a frontend developer. i work on mobile and web applications.</p> 
+         i have<span id="experience">2+</span> experience, building applications.
+    </p>
+    <div class="skills">
+      <div class="skillset"><span><i class="fa-solid fa-browser"></i>web development</span></div>
+      <div class="skillset">
+        <p><i class="fa-solid fa-browser"></i>ui/ux design</p></div>
+      <div class="skillset">pcb design</div>
+      <div class="skillset">mobile development</div>
+      <div class="skillset">technical writing</div>
     </div>
-  </div>
-</section>
-<footer>
-  <div class="copyright"><small>Copyright. All Rights Reserved | by <a target="_blank" rel="nofollow" href="http://www.iamsupview.be">Supview</a>.</small></div>
-</footer>
+    <p>you can visit my github page for more projects:</p>
+    <div class="social-media-icons">
+      <a id="profile-link" href="https://github.com/kafeynman" target="_blank"><i class="fa-brands fa-github"></i></a>
+    </div>
+  </section>
+  <section id="projects">
+    <span class="section-heading">projects:</span>
+    <p>i have worked on many projcts, here are some of the projects i have worked on</p>
+    <div id="projects-container">
+      <div class="project-tile">
+        <img src="./design-1.png" alt="project avatar" />
+        <span class="project-title">project 1</span>
+        <span class="project-description">lorem ispums project description</span>
+        <button class="accented-btn">
+          <a target="_blank" href="https://chengeta-landing-page.glitch.me">view live</a>
+        </button>
+        <button class="non-accented-btn">
+          <a target="_blank" href="https://github.com/kafeynman/frontend">github repo</a>
+        </button>
+      </div><div class="project-tile">
+        <img src="./design-1.png" alt="project avatar" />
+        <span class="project-title">project 1</span>
+        <span class="project-description">lorem ispums project description</span>
+        <button class="accented-btn">
+          <a target="_blank" href="https://chengeta-landing-page.glitch.me">view live</a>
+        </button>
+        <button class="non-accented-btn">
+          <a target="_blank" href="https://github.com/kafeynman/frontend">github repo</a>
+        </button>
+      </div>
+      <div class="project-tile">
+        <img src="./design-1.png" alt="project avatar" />
+        <span class="project-title">project 1</span>
+        <span class="project-description">lorem ispums project description</span>
+        <button class="accented-btn">
+          <a target="_blank" href="https://chengeta-landing-page.glitch.me">view live</a>
+        </button>
+        <button class="non-accented-btn">
+          <a target="_blank" href="https://github.com/kafeynman/frontend">github repo</a>
+        </button>
+      </div>
+    </div>
+  </section>
+  <section id="contacts">
+    <div class="contact-details">
+      <span class="section-heading">connect with me:</span>
+      <p>if satistfied by my work, please contact me:</p>
+      <div class="social-media-icons">
+        <a href="https://twitter.com">
+        <i class="fa-brands fa-twitter"></i></a>
+        </div>
+        <div class="social-media-icons">
+          <a href="mailto:ishekahonde@gmail.com">
+            <i class="fa-solid fa-envelope"></i></a>
+        </div>
+    </div>
+    <div id="contact-form">
+        <form action="ishekahonde@gmail.com">
+            <input type="text" placeholder="name" />
+            <input type="email" pattern="example@gmail.com" required placeholder="email" />
+            <textarea cols="50" rows="10" name="contact-form">message:</textarea>
+            <button class="accented-btn" formaction="ishekahonde@gmail.com">send</button>
+        </form>
+    </div>
+  </section>
 </body>
+<footer>
+  <div id="footer-content">
+    <span id="footer-caption">&copy kafeynman 2022</span>
+    <div class="social-media-icons">
+    <a id="profile-link" href="https://github.com/kafeynman" target="_blank">
+      <i class="fa-brands fa-github"></i>
+    </a>
+  </div>
+  <div class="social-media-icons">
+    <a href="https://twitter.com">
+    <i class="fa-brands fa-twitter"></i></a>
+    </div>
+    <div class="social-media-icons">
+      <a href="mailto:ishekahonde@gmail.com">
+        <i class="fa-solid fa-envelope"></i></a>
+    </div>
+  </div>
+</footer>
 </html>
