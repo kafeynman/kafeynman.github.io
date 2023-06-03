@@ -1,5 +1,4 @@
 ---
-title: CV
 permalink: /cv/
 ---
 If you are interested in understanding my journey, you can check my CV [here][resume].
