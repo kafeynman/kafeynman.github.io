@@ -21,9 +21,9 @@
 title: Kafeynman
 email: ishekahonde@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Kafeynman's blog titled Things-Welte which just means Things World, 
+  die Welte is the word for word in German. Here I write about IoT, computers, computer science stuff
+  and philosophy when I am bored.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: kafeynman
