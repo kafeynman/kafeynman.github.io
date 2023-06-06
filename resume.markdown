@@ -4,4 +4,4 @@ permalink: /cv/
 ---
 If you are interested in understanding my journey, you can check my CV [here][resume].
 
-[resume]: https://drive.google.com/file/d/18WzemaZQfFL0Lo049G16Rp_zLdK2Xydt/view?usp=sharing
+[resume]: https://drive.google.com/file/d/1-RQzPFm2678JXKAZAM_u6H57paP18pnL/view?usp=sharing
